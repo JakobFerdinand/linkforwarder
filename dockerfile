@@ -8,5 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src /app
 
-EXPOSE 8080
+EXPOSE 5000
 CMD [ "python", "./linkforwarder.py" ]
